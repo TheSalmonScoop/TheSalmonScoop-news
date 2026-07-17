@@ -1,16 +1,26 @@
-# The Salmon Scoop Website
+THE SALMON SCOOP — FIXED SITE PACKAGE
 
-This is a fictional satire website package for GitHub Pages.
+WHAT WAS FIXED:
+- Updated all masthead and story dates to Friday, July 17, 2026.
+- Fixed navigation using GitHub Pages root-relative links for this repository: /TheSalmonScoop-news/
+- Added Fishing Report page.
+- Added Classifieds page.
+- Improved real newspaper styling and front-page content.
 
-## Upload instructions
+UPLOAD TO GITHUB:
 1. Extract this ZIP.
-2. Upload `index.html`, the `assets` folder, and the `articles` folder to the root of your GitHub repository.
-3. Go to Settings > Pages.
-4. Set Source to Deploy from a branch.
-5. Set Branch to `main` and Folder to `/ (root)`.
-6. Save.
+2. In your existing GitHub repository, upload/replace these root-level items:
+   - index.html
+   - assets folder
+   - articles folder
+   - sections folder
+   - README_UPLOAD_INSTRUCTIONS.txt optional
+3. Commit changes.
+4. GitHub Pages will redeploy at:
+   https://thesalmonscoop.github.io/TheSalmonScoop-news/
 
-Your site should publish at your GitHub Pages URL.
-
-## Important
-All content is fictional satire and not real news.
+IMPORTANT:
+- Do not upload the ZIP itself.
+- Upload the extracted files and folders.
+- If GitHub asks about duplicates, replace/overwrite existing files.
+- This website is fictional satire/parody content and not real news.
