@@ -1,18 +1,28 @@
-THE SALMON SCOOP — INTERNET PHOTOS PACKAGE
+THE SALMON SCOOP — CLEAN FIXED-WIDTH REBUILD
 
-This version places internet-hosted photos into the homepage and article pages.
-It also keeps the corrected masthead date: Friday, July 17, 2026
+This is a clean rebuild intended to replace all previous mixed versions.
 
-Upload/replace these extracted items in your GitHub repository root:
-- index.html
-- assets folder
-- articles folder
-- sections folder
+What is fixed:
+- Fixed-width 1100px newspaper layout.
+- Images are constrained with CSS and cannot overflow page columns.
+- Navigation uses GitHub Pages root links for this repository: /TheSalmonScoop-news/
+- Correct masthead date: Friday, July 17, 2026
+- Consistent header/navigation on every page.
 
-Important cleanup:
-- Delete TheSalmonScoop_MockWebsite.html if it still exists in the repo.
-- GitHub Pages uses index.html as the homepage.
-- The images are remote web image links. If an image provider blocks hotlinking later, the page will still work but the affected image may not display.
+Upload instructions:
+1. In GitHub, delete or replace the old files/folders first if possible:
+   - index.html
+   - assets
+   - articles
+   - sections
+   - TheSalmonScoop_MockWebsite.html
+2. Upload the extracted contents of this ZIP into the repo root:
+   - index.html
+   - assets folder
+   - articles folder
+   - sections folder
+3. Commit changes.
+4. Hard refresh the live site after deployment.
 
-Live site after upload:
+Live URL:
 https://thesalmonscoop.github.io/TheSalmonScoop-news/
