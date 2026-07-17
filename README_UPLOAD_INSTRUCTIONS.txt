@@ -1,26 +1,18 @@
-THE SALMON SCOOP — FIXED SITE PACKAGE
+THE SALMON SCOOP — INTERNET PHOTOS PACKAGE
 
-WHAT WAS FIXED:
-- Updated all masthead and story dates to Friday, July 17, 2026.
-- Fixed navigation using GitHub Pages root-relative links for this repository: /TheSalmonScoop-news/
-- Added Fishing Report page.
-- Added Classifieds page.
-- Improved real newspaper styling and front-page content.
+This version places internet-hosted photos into the homepage and article pages.
+It also keeps the corrected masthead date: Friday, July 17, 2026
 
-UPLOAD TO GITHUB:
-1. Extract this ZIP.
-2. In your existing GitHub repository, upload/replace these root-level items:
-   - index.html
-   - assets folder
-   - articles folder
-   - sections folder
-   - README_UPLOAD_INSTRUCTIONS.txt optional
-3. Commit changes.
-4. GitHub Pages will redeploy at:
-   https://thesalmonscoop.github.io/TheSalmonScoop-news/
+Upload/replace these extracted items in your GitHub repository root:
+- index.html
+- assets folder
+- articles folder
+- sections folder
 
-IMPORTANT:
-- Do not upload the ZIP itself.
-- Upload the extracted files and folders.
-- If GitHub asks about duplicates, replace/overwrite existing files.
-- This website is fictional satire/parody content and not real news.
+Important cleanup:
+- Delete TheSalmonScoop_MockWebsite.html if it still exists in the repo.
+- GitHub Pages uses index.html as the homepage.
+- The images are remote web image links. If an image provider blocks hotlinking later, the page will still work but the affected image may not display.
+
+Live site after upload:
+https://thesalmonscoop.github.io/TheSalmonScoop-news/
